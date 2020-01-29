@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-size:16px;
+    font-family: Georgia;
+    background-color: rgb(0, 0, 0);
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(247, 4, 4);
+    color: white;
+}
+
+
+.section-mission {
+ /* The image used */
+ background-image: url("static/black2.jpg");
+}
+
+.section-history {
+    background-image: url('static/black-background.jpg')
+}
+
+.section-product {
+    background-image: url('static/red-planet-background.jpg')
+}
+
+.parallax {
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container{
+    scroll-snap-type: y mandatory;
+    /* width: 80%;
+    margin:auto; */
+}
+
+.child {
+    scroll-snap-align: start;
+}
+
+
+h1,h2 {
+    text-align: left;
+    
+    font-family: Tahoma;
+    color: white;
+}
+
+p {
+    color: white;
+
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+    
+#mySidenav a:hover {
+    left: 0;    
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+    margin-top: 30px;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+    margin-top: 30px;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+    margin-top: 30px;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555;
+    margin-top: 30px;
+}
