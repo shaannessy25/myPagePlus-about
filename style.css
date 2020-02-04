@@ -2,15 +2,18 @@ body {
     margin: 0;
     font-size:16px;
     font-family: Georgia;
-    background-color: rgb(0, 0, 0);
+    background-color: #fff;
 }
+
 .topnav {
     overflow: hidden;
     background-color: #333;
 }
 
-
 .topnav a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -26,13 +29,18 @@ body {
 
 .topnav a.active {
     background-color: rgb(247, 4, 4);
-    color: white;
+    color: black;
+}
+
+.logo-image{
+    
+    
 }
 
 
 .section-mission {
  /* The image used */
- background-image: url("static/black2.jpg");
+ /* background-image: url("static/black2.jpg");
 }
 
 .section-history {
@@ -70,11 +78,11 @@ h1,h2 {
     text-align: left;
     
     font-family: Tahoma;
-    color: white;
+    color: black;
 }
 
 p {
-    color: white;
+    color: black;
 
 }
 
