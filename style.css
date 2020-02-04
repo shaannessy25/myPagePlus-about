@@ -32,25 +32,43 @@ body {
     color: black;
 }
 
-.logo-image{
-    
-    
-}
 
 
 .section-mission {
- /* The image used */
- /* background-image: url("static/black2.jpg");
+ 
+ background-image: url("static/pink-flowers.jpg");
+ 
 }
 
 .section-history {
-    background-image: url('static/black-background.jpg')
+    background-image: url('static/pink-clouds.jpg')
 }
 
-.section-product {
-    background-image: url('static/red-planet-background.jpg')
+.section-design {
+    background-image: url('static/pink-flowers.jpg')
 }
 
+.section-team {
+    background-image: url('static/pink-clouds.jpg')
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container{
+    padding: 2px 16px;
+}
+
+.section-contact {
+    background-image: url('static/pink-flowers.jpg')
+}
 .parallax {
   
     /* Set a specific height */
@@ -63,11 +81,7 @@ body {
     background-size: cover;
   }
 
-.container{
-    scroll-snap-type: y mandatory;
-    /* width: 80%;
-    margin:auto; */
-}
+
 
 .child {
     scroll-snap-align: start;
@@ -75,14 +89,16 @@ body {
 
 
 h1,h2 {
-    text-align: left;
+    text-align: center;
     
     font-family: Tahoma;
     color: black;
 }
 
 p {
+    text-align: center;
     color: black;
+    font-size: 24px;
 
 }
 
